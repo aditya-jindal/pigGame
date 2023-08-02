@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html{
+    height: 100%;
+    width: 100%;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* width: 100%; */
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    font-family: 'Nunito';
+    
+}
+.player-container{
+    width: 33%;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    
+}
+.player-container[id='player1']{
+    border-radius: .5rem 0 0 .5rem ;
+    
+}
+.player-container[id='player2']{
+    border-radius: 0 .5rem .5rem 0;
+}
+.player-container header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.7rem;
+}
+.player-container header h1{
+    margin: 0;
+    font-weight: 500;
+}
+.total-score{
+    color: #c7365f;
+    font-size: 5rem;
+    font-weight: normal;
+}
+.current-score-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c7365f;
+    padding: 0.5rem 3.8rem;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+.current-score-container h2{
+    font-weight: normal;
+    font-size: 1rem;
+}
+.current-score{
+    font-size: 2rem;
+    margin: .3rem;
+    font-weight: normal;
+}
+
+#buttons{
+    position: absolute;
+    height: 82%;
+    width: 40%;
+    /* left: 50%;
+    transform: translate(-50%,0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#buttons button{
+    border-radius: 24px;
+    font-size: 1.2rem;
+    border-style:none ;
+    opacity: .7;
+    color: #444;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+#new-game{
+    padding: .7rem 1.5rem;
+    margin-top: -2rem;
+}
+#control-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#roll-dice{
+    padding: .7rem 1rem;
+    margin-bottom: 1rem;
+}
+#hold{
+    padding: .7rem 0;
+    width: 80%;
+}
+#dice{
+    height: 15%;
+    width: 15%;
+    background-color: white;
+    margin-top: -5rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+#diceImg{
+    height: 100%;
+    width: 100%;
+}
+.hidden{
+    visibility: hidden;
+}
+.on-hold{
+    background-color: #b6799a;
+}
+.on-hold .title{
+    font-weight: normal;
+}
+
+.active{
+    background-color: #e5bac0;
+}
+.active .title{
+    font-weight: bold;
+}
+.winner{
+    background-color:#2f2f2f;
+    color: #c7365f;
+}
