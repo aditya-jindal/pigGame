@@ -1,5 +1,5 @@
 # PIG-Game 
-Pig game from Jonas Schmedtmann Js tutorial
+A game that is played by 2 players competing against each other 
 
 ## GAME RULES 
 
