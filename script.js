@@ -18,7 +18,7 @@ const switchSides= function(){
         p1TotalScore+=Number(document.querySelector('.active .current-score').textContent);
         domP1TotalScore.textContent=p1TotalScore;
         document.querySelector('.active .current-score').textContent=0;
-        if(p1TotalScore>=20){
+        if(p1TotalScore>=100){
             player1.classList.add('winner');
         }  
         else{      
@@ -32,7 +32,7 @@ const switchSides= function(){
         p2TotalScore+=Number(document.querySelector('.active .current-score').textContent);
         domP2TotalScore.textContent=p2TotalScore;
         document.querySelector('.active .current-score').textContent=0;
-        if(p2TotalScore>=20){
+        if(p2TotalScore>=100){
             player2.classList.add('winner');
         }
         else{
