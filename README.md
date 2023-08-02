@@ -10,4 +10,4 @@ Pig game from Jonas Schmedtmann Js tutorial
 - The first player to reach 20 points on GLOBAL score wins the game
 
 
-![image of the game](https://github.com/aditya-jindal/pigGame/images/game.png)
+![image of the game](https://raw.githubusercontent.com/aditya-jindal/pigGame/main/images/game.png)
