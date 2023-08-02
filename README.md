@@ -1,5 +1,5 @@
 # PIG-Game 
-A game that is played by 2 players competing against each other 
+A dice game that is played by 2 players competing against each other 
 
 ## GAME RULES 
 
