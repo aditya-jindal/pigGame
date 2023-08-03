@@ -52,26 +52,7 @@ const setDiceImg= function(value){
     if(dice.classList.contains('hidden')){
         dice.classList.remove('hidden');
     }
-    switch(value){
-        case 1:
-            document.getElementById('diceImg').src='./images/dice-1.png';
-            break;
-        case 2:
-            document.getElementById('diceImg').src='./images/dice-2.png';
-            break;
-        case 3:
-            document.getElementById('diceImg').src='./images/dice-3.png';
-            break;
-        case 4:
-            document.getElementById('diceImg').src='./images/dice-4.png';
-            break;
-        case 5:
-            document.getElementById('diceImg').src='./images/dice-5.png';
-            break; 
-        case 6:
-            document.getElementById('diceImg').src='./images/dice-6.png';
-            break;   
-    }
+    document.getElementById('diceImg').src=`./images/dice-${value}.png`;
 }
 
 const gameOver=function(){
