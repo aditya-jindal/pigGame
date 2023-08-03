@@ -109,8 +109,8 @@ body{
     width: 80%;
 }
 #dice{
-    height: 15%;
-    width: 15%;
+    height: 7vw;
+    width: 7vw;
     background-color: white;
     margin-top: -5rem;
     backdrop-filter: blur(10px);
