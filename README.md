@@ -11,3 +11,5 @@ A dice game that is played by 2 players competing against each other
 
 
 ![image of the game](https://raw.githubusercontent.com/aditya-jindal/pigGame/main/images/game.png)
+
+Note: Since coding this project, I have learnt a far more efficient coding approach. But I'm leaving this code as it is to prove uniqueness.
